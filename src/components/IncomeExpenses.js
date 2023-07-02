@@ -1,7 +1,18 @@
 import React from "react";
 
 const IncomeExpenses = () => {
-  return <div>IncomeExpenses</div>;
+  return (
+    <div>
+      <div className="income-exp-container">
+        <h4>Income</h4>
+        <p className="money plus">+ 0.00</p>
+      </div>
+      <div>
+        <h4>Expense</h4>
+        <p className="money minus">- 0.00</p>
+      </div>
+    </div>
+  );
 };
 
 export default IncomeExpenses;
