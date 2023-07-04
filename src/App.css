@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Ysabeau+SC:wght@800&display=swap");
+
+/* Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4effa;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+
+h2 {
+  font-family: "Ysabeau SC", sans-serif;
+  font-size: 30px;
+  color: #2f184b;
+}
+
+.title {
+  font-size: 16px;
+  color: #532b88;
+}
+
+/* Body */
+.container {
+  width: 350px;
+  border-radius: 1rem;
+  box-shadow: rgba(200, 177, 228, 0.5) 0px 5px 15px,
+    rgba(200, 177, 228, 0.5) 0px 10px 15px -5px,
+    rgba(83, 43, 136, 0.5) 0px -5px 0px inset;
+  padding: 2rem 1rem;
+}
+
+/* Title + Credit */
+.credit {
+  font-size: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.github {
+  text-decoration: none;
+}
+
+/* Main Balance */
+.main-balance {
+  margin-bottom: 0.5rem;
+}
+
+.current-balance {
+  font-size: 20px;
+}
+
+/* Income + Expense */
+.income-exp-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0.5rem;
+}
+
+/* History */
+.history-container {
+  margin-bottom: 0.5rem;
+}
+
+.history-transaction {
+  margin-top: 0.3rem;
+  box-shadow: rgba(50, 50, 93, 0.3) -10px 15px 30px -30px inset,
+    rgba(0, 0, 0, 0.3) 10px -15px 10px -20px inset;
+  border-radius: 1rem;
+  overflow-y: scroll;
+}
+
+.history {
+  margin: 0.5rem 0;
+  height: 100px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.delete-btn {
+  background-color: #532b88;
+  border: 1px solid #9b72cf;
+  color: #f4effa;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+/* Add New Transaction */
+.form-control {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-transaction,
+.amount-transaction {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #2f184b;
+  padding: 3px 10px;
+  outline: none;
+}
+
+.add-transaction-btn {
+  margin-top: 1rem;
+  padding: 5px 15px;
+  background-color: #532b88;
+  border: 3px solid #9b72cf;
+  border-radius: 1rem;
+  color: #f4effa;
+  letter-spacing: 1px;
+  cursor: pointer;
+}

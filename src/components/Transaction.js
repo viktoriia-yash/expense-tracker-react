@@ -28,7 +28,7 @@ export const Transaction = ({ transaction }) => {
       <span>
         {sign}
         {moneyFormatter(transaction.amount)}
-      </span>
+      </span>{" "}
       <button
         className="delete-btn"
         onClick={() => deleteTransaction(transaction.id)}

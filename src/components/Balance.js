@@ -24,8 +24,10 @@ const Balance = () => {
 
   return (
     <>
-      <h4>Your Balance</h4>
-      <h4 className="current-balance">{moneyFormatter(total)}</h4>
+      <div className="main-balance">
+        <h4 className="title">Your Balance</h4>
+        <p className="current-balance">{moneyFormatter(total)}</p>
+      </div>
     </>
   );
 };
